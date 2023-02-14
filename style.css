@@ -251,8 +251,8 @@ header {
 
 #sign-up {
     background-color:#3882F6;
-    margin: 80px 200px 80px 200px;
-    padding: 30px;
+    margin: 150px 200px 150px 200px;
+    padding: 50px;
     border-radius: 6px;
     display: flex;
     flex-grow: 1;
@@ -276,5 +276,15 @@ header {
     padding: 8px;
     color: #F9FAF8;
     font-size: 14px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color:#1F2937;
+    color:#E5E7Eb;
+    font-size: 16px;
 }
 
