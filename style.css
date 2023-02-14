@@ -75,7 +75,7 @@ header {
 
 /*  INFO  */
 
-.info {
+#info {
     padding: 10px 180px;
     display: flex;
     flex-direction: column;
@@ -208,5 +208,41 @@ header {
   }
   .container .box:hover .content p {
     transform: translateY(0px);
+  }
+
+  /* quote */
+
+  #ricky {
+    width: 350px;
+    border-radius: 4px;
+  }
+
+  #quote {
+    background-color: #E5E7Eb;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  #quote-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #real-quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+  }
+  #author {
+    text-align: end;
+    font-weight: bolder;
+  }
+
+  #quote-right {
+    margin: 40px;
   }
 
